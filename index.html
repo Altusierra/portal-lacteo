@@ -478,7 +478,8 @@
     const pcls={pdf:'pill-pdf',imagen:'pill-img',video:'pill-vid'};
     const lbl={pdf:'PDF',imagen:'Imagen',video:'Video'};
     if(t==='pdf') {
-      return `<a class="doc-card" href="${f.archivo}" target="_blank" rel="noopener" style="text-decoration:none;">
+      const encodedSrc = encodeURI(f.archivo);
+      return `<a class="doc-card" href="${encodedSrc}" target="_blank" rel="noopener" style="text-decoration:none;">
         <div class="doc-icon-wrap ${icls[t]}">${icons[t]}</div>
         <div class="doc-label">${f.nombre}</div>
         <span class="doc-pill ${pcls[t]}">${lbl[t]}</span>
@@ -496,7 +497,7 @@
     document.getElementById('mTitle').textContent=nom;
     document.getElementById('mIcon').textContent=icons[t]||'📎';
     const b=document.getElementById('mContent');
-    if(t==='pdf') { window.location.href=src; return; }
+    if(t==='pdf') { window.location.href=encodeURI(src); return; }
     else if(t==='imagen') b.innerHTML=`<img src="${src}" alt="${nom}">`;
     else if(t==='video') b.innerHTML=`<video controls><source src="${src}"></video>`;
     else b.innerHTML=`<div class="no-preview"><a href="${src}" target="_blank">Abrir archivo ↗</a></div>`;
