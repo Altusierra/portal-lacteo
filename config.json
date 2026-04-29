@@ -19,18 +19,18 @@
         {
           "nombre": "Fichas Técnicas",
           "archivos": [
-            { "nombre": "Ficha Técnica Mantequilla", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TÉCNICA MANTEQUILLA.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Queso Campesino", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TÉCNICA QUESO CAMPESINO.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Queso Cuajada", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TÉCNICA QUESO CUAJADA.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Queso Doble Crema", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TÉCNICA QUESO DOBLE CREMA.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Queso Mozarella", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TÉCNICA QUESO MOZARELLA.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Yogurt", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TÉCNICA YOGURT.pdf", "tipo": "pdf" }
+            { "nombre": "Ficha Técnica Mantequilla", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TECNICA MANTEQUILLA.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Queso Campesino", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TECNICA QUESO CAMPESINO.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Queso Cuajada", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TECNICA QUESO CUAJADA.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Queso Doble Crema", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TECNICA QUESO DOBLE CREMA.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Queso Mozarella", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TECNICA QUESO MOZARELLA.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Yogurt", "archivo": "empresas/lacteos-buena-vista/fichas-tecnicas/FICHA TECNICA YOGURT.pdf", "tipo": "pdf" }
           ]
         },
         {
           "nombre": "Inspección INVIMA",
           "archivos": [
-            { "nombre": "Concepto Sanitario Lácteos Buena Vista", "archivo": "empresas/lacteos-buena-vista/inspeccion-invima/Concepto Sanitario Lácteos  Buena Vista.pdf", "tipo": "pdf" }
+            { "nombre": "Concepto Sanitario Lacteos Buena Vista", "archivo": "empresas/lacteos-buena-vista/inspeccion-invima/Concepto Sanitario Lacteos  Buena Vista.pdf", "tipo": "pdf" }
           ]
         },
         {
@@ -43,13 +43,13 @@
           ]
         },
         {
-          "nombre": "Resultados Análisis Microbiológicos",
+          "nombre": "Resultados Analisis Microbiológicos",
           "archivos": [
-            { "nombre": "Análisis Microbiológico - Campesino Molido", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CAMPESINO MOLIDO.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Crema de Leche", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CREMA DE LECHE.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Cuajada", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CUAJADA.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Doble Crema", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Mantequilla", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MANTEQUILLA.pdf", "tipo": "pdf" }
+            { "nombre": "Analisis Microbiológico - Campesino Molido", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CAMPESINO MOLIDO.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Crema de Leche", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CREMA DE LECHE.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Cuajada", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CUAJADA.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Doble Crema", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Mantequilla", "archivo": "empresas/lacteos-buena-vista/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MANTEQUILLA.pdf", "tipo": "pdf" }
           ]
         },
         {
@@ -77,20 +77,20 @@
         {
           "nombre": "Inspección INVIMA",
           "archivos": [
-            { "nombre": "Última Acta INVIMA Lácteos San Diego", "archivo": "empresas/lacteos-san-diego/inspeccion-invima/Última acta invima Lacteos San Diego.pdf", "tipo": "pdf" }
+            { "nombre": "Ultima Acta INVIMA Lacteos San Diego", "archivo": "empresas/lacteos-san-diego/inspeccion-invima/Ultima acta invima Lacteos San Diego.pdf", "tipo": "pdf" }
           ]
         },
         {
           "nombre": "Registro INVIMA",
           "archivos": [
-            { "nombre": "Cámara de Comercio - Lácteos San Diego", "archivo": "empresas/lacteos-san-diego/registro-invima/CAMARA DE COMERCIO - LACTEOS SAN DIEGO.pdf", "tipo": "pdf" },
+            { "nombre": "Cámara de Comercio - Lacteos San Diego", "archivo": "empresas/lacteos-san-diego/registro-invima/CAMARA DE COMERCIO - LACTEOS SAN DIEGO.pdf", "tipo": "pdf" },
             { "nombre": "Registro INVIMA - Quesos Frescos", "archivo": "empresas/lacteos-san-diego/registro-invima/REGISTRO INVIMA - QUESOS FRESCOS.pdf", "tipo": "pdf" }
           ]
         },
         {
-          "nombre": "Resultados Análisis Microbiológicos",
+          "nombre": "Resultados Analisis Microbiológicos",
           "archivos": [
-            { "nombre": "Análisis Microbiológico - Doble Crema", "archivo": "empresas/lacteos-san-diego/resultados-microbiologicos/ANALISIS MICROBIOLOGICO - DOBLE CREMA.pdf", "tipo": "pdf" }
+            { "nombre": "Analisis Microbiológico - Doble Crema", "archivo": "empresas/lacteos-san-diego/resultados-microbiologicos/ANALISIS MICROBIOLOGICO - DOBLE CREMA.pdf", "tipo": "pdf" }
           ]
         },
         {
@@ -108,25 +108,25 @@
         {
           "nombre": "Catálogo Comercial",
           "archivos": [
-            { "nombre": "Nuestros Productos de Lácteos Shirley", "archivo": "empresas/lacteos-shirley/catalogo-comercial/NUESTROS PRODUCTOS DE LÁCTEOS SHIRLEY.pdf", "tipo": "pdf" }
+            { "nombre": "Nuestros Productos de Lacteos Shirley", "archivo": "empresas/lacteos-shirley/catalogo-comercial/NUESTROS PRODUCTOS DE LÁCTEOS SHIRLEY.pdf", "tipo": "pdf" }
           ]
         },
         {
           "nombre": "Fichas Técnicas",
           "archivos": [
-            { "nombre": "Ficha Técnica Campesino Prensado", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TÉCNICA CAMPESINO PRENSADO.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Crema de Leche", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TÉCNICA CREMA DE LECHE.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Cuajada Con Sal", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TÉCNICA CUAJADA CON SAL.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Cuajada Sin Sal", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TÉCNICA CUAJADA SIN SAL.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Mantequilla", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TÉCNICA MANTEQUILLA.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Queso Doble Crema", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TÉCNICA QUESO DOBLE CREMA.pdf", "tipo": "pdf" },
-            { "nombre": "Ficha Técnica Queso Molido", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TÉCNICA QUESO MOLIDO.pdf", "tipo": "pdf" }
+            { "nombre": "Ficha Técnica Campesino Prensado", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TECNICA CAMPESINO PRENSADO.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Crema de Leche", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TECNICA CREMA DE LECHE.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Cuajada Con Sal", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TECNICA CUAJADA CON SAL.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Cuajada Sin Sal", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TECNICA CUAJADA SIN SAL.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Mantequilla", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TECNICA MANTEQUILLA.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Queso Doble Crema", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TECNICA QUESO DOBLE CREMA.pdf", "tipo": "pdf" },
+            { "nombre": "Ficha Técnica Queso Molido", "archivo": "empresas/lacteos-shirley/fichas-tecnicas/FICHA TECNICA QUESO MOLIDO.pdf", "tipo": "pdf" }
           ]
         },
         {
           "nombre": "Inspección INVIMA",
           "archivos": [
-            { "nombre": "Concepto Sanitario 2024 Lácteos Shirley", "archivo": "empresas/lacteos-shirley/inspeccion-invima/Concepto Sanitario 2024 Lácteos Shirley.pdf", "tipo": "pdf" }
+            { "nombre": "Concepto Sanitario 2024 Lacteos Shirley", "archivo": "empresas/lacteos-shirley/inspeccion-invima/Concepto Sanitario 2024 Lacteos Shirley.pdf", "tipo": "pdf" }
           ]
         },
         {
@@ -138,15 +138,15 @@
           ]
         },
         {
-          "nombre": "Resultados Análisis Microbiológicos",
+          "nombre": "Resultados Analisis Microbiológicos",
           "archivos": [
-            { "nombre": "Análisis Microbiológico - Campesino Molido", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CAMPESINO MOLIDO.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Campesino Prensado", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CAMPESINO PRENSADO.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Crema de Leche", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CREMA DE LECHE.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Cuajada Sin Sal", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CUAJADA SIN SAL.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Cuajada", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CUAJADA.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Doble Crema", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Mantequilla", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MANTEQUILLA.pdf", "tipo": "pdf" }
+            { "nombre": "Analisis Microbiológico - Campesino Molido", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CAMPESINO MOLIDO.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Campesino Prensado", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CAMPESINO PRENSADO.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Crema de Leche", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CREMA DE LECHE.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Cuajada Sin Sal", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CUAJADA SIN SAL.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Cuajada", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CUAJADA.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Doble Crema", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Mantequilla", "archivo": "empresas/lacteos-shirley/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MANTEQUILLA.pdf", "tipo": "pdf" }
           ]
         },
         {
@@ -232,11 +232,11 @@
           "nombre": "Fichas Técnicas",
           "archivos": [
             { "nombre": "Crema de Leche", "archivo": "empresas/power-milk/fichas-tecnicas/CREMA DE LECHE.pdf", "tipo": "pdf" },
-            { "nombre": "Doble Crema Entero - Vacío", "archivo": "empresas/power-milk/fichas-tecnicas/DOBLE CREMA ENTERO - VACIO.pdf", "tipo": "pdf" },
-            { "nombre": "Doble Crema Tajado - Vacío", "archivo": "empresas/power-milk/fichas-tecnicas/DOBLE CREMA TAJADO - VACIO.pdf", "tipo": "pdf" },
-            { "nombre": "Mozarella Entero - Vacío", "archivo": "empresas/power-milk/fichas-tecnicas/MOZARELLA ENTERO - VACIO.pdf", "tipo": "pdf" },
-            { "nombre": "Mozarella Tajado - Vacío", "archivo": "empresas/power-milk/fichas-tecnicas/MOZARELLA TAJADO - VACIO.pdf", "tipo": "pdf" },
-            { "nombre": "Requesón", "archivo": "empresas/power-milk/fichas-tecnicas/REQUESON.pdf", "tipo": "pdf" }
+            { "nombre": "Doble Crema Entero - Vacio", "archivo": "empresas/power-milk/fichas-tecnicas/DOBLE CREMA ENTERO - VACIO.pdf", "tipo": "pdf" },
+            { "nombre": "Doble Crema Tajado - Vacio", "archivo": "empresas/power-milk/fichas-tecnicas/DOBLE CREMA TAJADO - VACIO.pdf", "tipo": "pdf" },
+            { "nombre": "Mozarella Entero - Vacio", "archivo": "empresas/power-milk/fichas-tecnicas/MOZARELLA ENTERO - VACIO.pdf", "tipo": "pdf" },
+            { "nombre": "Mozarella Tajado - Vacio", "archivo": "empresas/power-milk/fichas-tecnicas/MOZARELLA TAJADO - VACIO.pdf", "tipo": "pdf" },
+            { "nombre": "Requeson", "archivo": "empresas/power-milk/fichas-tecnicas/REQUESON.pdf", "tipo": "pdf" }
           ]
         },
         {
@@ -253,14 +253,14 @@
           ]
         },
         {
-          "nombre": "Resultados Análisis Microbiológicos",
+          "nombre": "Resultados Analisis Microbiológicos",
           "archivos": [
-            { "nombre": "Análisis Microbiológico - Crema de Leche", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CREMA DE LECHE.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Doble Crema Entero", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA ENTERO.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Doble Crema Tajado", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA TAJADO.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Mozarella Entero", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MOZARELLA ENTERO.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Mozarella Tajado", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MOZARELLA TAJADO.pdf", "tipo": "pdf" },
-            { "nombre": "Análisis Microbiológico - Requesón", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - REQUESON.pdf", "tipo": "pdf" }
+            { "nombre": "Analisis Microbiológico - Crema de Leche", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - CREMA DE LECHE.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Doble Crema Entero", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA ENTERO.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Doble Crema Tajado", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - DOBLE CREMA TAJADO.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Mozarella Entero", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MOZARELLA ENTERO.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Mozarella Tajado", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - MOZARELLA TAJADO.pdf", "tipo": "pdf" },
+            { "nombre": "Analisis Microbiológico - Requeson", "archivo": "empresas/power-milk/resultados-microbiologicos/RESULTADO ANALISIS MICROBIOLOGICO - REQUESON.pdf", "tipo": "pdf" }
           ]
         },
         {
@@ -278,7 +278,7 @@
             { "nombre": "Mozarella - 450g", "archivo": "empresas/power-milk/rotulacion/Mozarella - 450g.jpeg", "tipo": "imagen" },
             { "nombre": "Mozarella Tajado - 2.400g", "archivo": "empresas/power-milk/rotulacion/Mozarella Tajado - 2.400g.jpeg", "tipo": "imagen" },
             { "nombre": "Mozzarella Tajado - 450g", "archivo": "empresas/power-milk/rotulacion/Mozzarella Tajado - 450g.jpeg", "tipo": "imagen" },
-            { "nombre": "Requesón - 500g", "archivo": "empresas/power-milk/rotulacion/Requeson - 500g.jpeg", "tipo": "imagen" }
+            { "nombre": "Requeson - 500g", "archivo": "empresas/power-milk/rotulacion/Requeson - 500g.jpeg", "tipo": "imagen" }
           ]
         }
       ]
