@@ -489,7 +489,7 @@
     document.getElementById('mTitle').textContent=nom;
     document.getElementById('mIcon').textContent=icons[t]||'📎';
     const b=document.getElementById('mContent');
-    if(t==='pdf') { const a=document.createElement('a'); a.href=src; a.target='_blank'; a.rel='noopener'; document.body.appendChild(a); a.click(); document.body.removeChild(a); closeModal(); return; }
+    if(t==='pdf') { const base='https://altusierra.github.io/portal-lacteo/'; const fullUrl=base+src; b.innerHTML=`<iframe src="https://docs.google.com/viewer?url=${encodeURIComponent(fullUrl)}&embedded=true" width="100%" style="border:none;height:70vh;"></iframe>`; }
     else if(t==='imagen') b.innerHTML=`<img src="${src}" alt="${nom}">`;
     else if(t==='video') b.innerHTML=`<video controls><source src="${src}"></video>`;
     else b.innerHTML=`<div class="no-preview"><a href="${src}" target="_blank">Abrir archivo ↗</a></div>`;
