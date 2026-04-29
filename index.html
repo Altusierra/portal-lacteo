@@ -21,33 +21,43 @@
     --text-muted: #7A9485;
     --border-green: rgba(255,255,255,0.12);
     --border-light: #DDD5C8;
-    --shadow: 0 8px 32px rgba(26,58,40,0.15);
     --radius: 10px;
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'DM Sans', sans-serif; background: var(--crema); color: var(--verde); min-height: 100vh; display: flex; flex-direction: column; }
-  .flag-stripe { height: 5px; background: linear-gradient(90deg, var(--amarillo-col) 0% 25%, var(--azul-col) 25% 50%, var(--rojo-col) 50% 75%, var(--verde) 75% 100%); }
-  header { background: var(--verde); padding: 0 40px; height: 70px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid var(--border-green); }
-  .header-left { display: flex; align-items: center; gap: 16px; }
-  .brand-logo { width: 42px; height: 42px; background: linear-gradient(135deg, var(--gold), var(--gold-light)); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
-  .brand-title { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: var(--white); letter-spacing: 0.3px; line-height: 1.1; }
+
+  /* FLAG */
+  .flag-stripe { height: 5px; background: linear-gradient(90deg, var(--amarillo-col) 0% 25%, var(--azul-col) 25% 50%, var(--rojo-col) 50% 75%, var(--verde) 75% 100%); flex-shrink: 0; }
+
+  /* HEADER */
+  header { background: var(--verde); padding: 0 24px; height: 62px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 200; border-bottom: 1px solid var(--border-green); flex-shrink: 0; }
+  .header-left { display: flex; align-items: center; gap: 12px; }
+  .brand-logo { width: 38px; height: 38px; background: linear-gradient(135deg, var(--gold), var(--gold-light)); border-radius: 9px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+  .brand-title { font-family: 'Playfair Display', serif; font-size: 16px; font-weight: 700; color: var(--white); line-height: 1.1; }
   .brand-title span { color: var(--gold-light); }
-  .brand-sub { font-size: 11px; color: var(--text-muted); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 2px; }
-  .header-right { display: flex; align-items: center; gap: 12px; }
-  .flag-badge { display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.07); border: 1px solid var(--border-green); border-radius: 8px; padding: 6px 14px; }
-  .colombia-flag { display: flex; flex-direction: column; width: 20px; height: 14px; border-radius: 2px; overflow: hidden; }
+  .brand-sub { font-size: 10px; color: var(--text-muted); letter-spacing: 1.2px; text-transform: uppercase; margin-top: 2px; }
+  .header-right { display: flex; align-items: center; gap: 8px; }
+  .flag-badge { display: flex; align-items: center; gap: 7px; background: rgba(255,255,255,0.07); border: 1px solid var(--border-green); border-radius: 7px; padding: 5px 11px; }
+  .colombia-flag { display: flex; flex-direction: column; width: 18px; height: 12px; border-radius: 2px; overflow: hidden; }
   .flag-y { flex: 2; background: var(--amarillo-col); }
   .flag-b { flex: 1; background: var(--azul-col); }
   .flag-r { flex: 1; background: var(--rojo-col); }
-  .flag-text { font-size: 11px; color: rgba(255,255,255,0.75); letter-spacing: 1px; text-transform: uppercase; font-weight: 500; }
-  .invima-badge { font-size: 11px; color: var(--gold-light); background: rgba(196,154,42,0.15); border: 1px solid rgba(196,154,42,0.3); padding: 6px 14px; border-radius: 8px; letter-spacing: 1px; text-transform: uppercase; font-weight: 600; }
-  .app { display: flex; flex: 1; height: calc(100vh - 75px); }
-  aside { width: 270px; min-width: 270px; background: var(--verde-mid); border-right: 1px solid var(--border-green); display: flex; flex-direction: column; overflow-y: auto; }
-  .sidebar-header { padding: 20px 20px 12px; border-bottom: 1px solid var(--border-green); }
+  .flag-text { font-size: 10px; color: rgba(255,255,255,0.7); letter-spacing: 1px; text-transform: uppercase; font-weight: 500; }
+  .invima-badge { font-size: 10px; color: var(--gold-light); background: rgba(196,154,42,0.15); border: 1px solid rgba(196,154,42,0.3); padding: 5px 11px; border-radius: 7px; letter-spacing: 0.8px; text-transform: uppercase; font-weight: 600; }
+
+  /* MOBILE: hamburger */
+  .menu-btn { display: none; background: rgba(255,255,255,0.1); border: none; color: var(--white); width: 36px; height: 36px; border-radius: 8px; cursor: pointer; font-size: 18px; align-items: center; justify-content: center; }
+
+  /* LAYOUT */
+  .app { display: flex; flex: 1; overflow: hidden; }
+
+  /* SIDEBAR DESKTOP */
+  aside { width: 260px; min-width: 260px; background: var(--verde-mid); border-right: 1px solid var(--border-green); display: flex; flex-direction: column; overflow-y: auto; transition: transform 0.28s ease; }
+  .sidebar-header { padding: 18px 18px 12px; border-bottom: 1px solid var(--border-green); }
   .sidebar-label { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); font-weight: 600; }
-  .sidebar-desc { font-size: 12px; color: rgba(255,255,255,0.4); margin-top: 4px; line-height: 1.4; }
-  .company-list { padding: 12px 10px 20px; }
-  .company-btn { width: 100%; background: transparent; border: none; border-radius: var(--radius); padding: 11px 12px; display: flex; align-items: center; gap: 12px; cursor: pointer; color: rgba(255,255,255,0.8); font-family: 'DM Sans', sans-serif; font-size: 13.5px; font-weight: 400; text-align: left; transition: all 0.2s; margin-bottom: 3px; position: relative; }
+  .sidebar-desc { font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 4px; line-height: 1.4; }
+  .company-list { padding: 10px 8px 20px; flex: 1; }
+  .company-btn { width: 100%; background: transparent; border: none; border-radius: var(--radius); padding: 11px 12px; display: flex; align-items: center; gap: 11px; cursor: pointer; color: rgba(255,255,255,0.8); font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 400; text-align: left; transition: all 0.18s; margin-bottom: 3px; position: relative; }
   .company-btn:hover { background: rgba(255,255,255,0.07); color: var(--white); }
   .company-btn.active { background: rgba(196,154,42,0.15); color: var(--gold-light); font-weight: 600; }
   .company-btn.active::before { content: ''; position: absolute; left: 0; top: 20%; height: 60%; width: 3px; background: var(--gold); border-radius: 0 3px 3px 0; }
@@ -55,67 +65,136 @@
   .company-avatar img { width: 100%; height: 100%; object-fit: cover; }
   .company-name-text { font-size: 13px; line-height: 1.3; }
   .company-docs-count { font-size: 11px; color: var(--text-muted); display: block; font-weight: 400; margin-top: 1px; }
-  .sidebar-footer { margin-top: auto; padding: 16px 20px; border-top: 1px solid var(--border-green); font-size: 11px; color: rgba(255,255,255,0.3); text-align: center; line-height: 1.6; }
-  main { flex: 1; overflow-y: auto; background: var(--crema); color: var(--verde); }
-  .welcome { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; padding: 40px; }
-  .welcome-seal { width: 88px; height: 88px; border-radius: 50%; background: var(--verde); display: flex; align-items: center; justify-content: center; font-size: 38px; margin-bottom: 28px; box-shadow: 0 0 0 8px rgba(26,58,40,0.1), 0 0 0 16px rgba(26,58,40,0.05); }
-  .welcome h2 { font-family: 'Playfair Display', serif; font-size: 30px; font-weight: 700; color: var(--verde); margin-bottom: 12px; line-height: 1.2; }
-  .welcome p { color: #6B7A6E; font-size: 15px; max-width: 380px; line-height: 1.7; margin-bottom: 28px; }
+  .sidebar-footer { padding: 14px 18px; border-top: 1px solid var(--border-green); font-size: 10px; color: rgba(255,255,255,0.3); text-align: center; line-height: 1.6; }
+
+  /* MAIN */
+  main { flex: 1; overflow-y: auto; background: var(--crema); }
+
+  /* WELCOME */
+  .welcome { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100%; text-align: center; padding: 40px 24px; }
+  .welcome-seal { width: 80px; height: 80px; border-radius: 50%; background: var(--verde); display: flex; align-items: center; justify-content: center; font-size: 34px; margin-bottom: 24px; box-shadow: 0 0 0 8px rgba(26,58,40,0.1), 0 0 0 16px rgba(26,58,40,0.05); }
+  .welcome h2 { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 700; color: var(--verde); margin-bottom: 10px; line-height: 1.2; }
+  .welcome p { color: #6B7A6E; font-size: 14px; max-width: 340px; line-height: 1.7; margin-bottom: 24px; }
   .welcome-tags { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
-  .welcome-tag { font-size: 11px; background: var(--verde); color: var(--gold-light); padding: 5px 14px; border-radius: 20px; letter-spacing: 0.8px; text-transform: uppercase; font-weight: 500; }
-  .company-banner { background: var(--verde); padding: 28px 40px 24px; display: flex; align-items: center; gap: 20px; border-bottom: 3px solid var(--gold); }
-  .banner-avatar { width: 58px; height: 58px; border-radius: 12px; background: var(--verde-light); border: 2px solid rgba(196,154,42,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 24px; color: var(--gold-light); overflow: hidden; flex-shrink: 0; }
+  .welcome-tag { font-size: 11px; background: var(--verde); color: var(--gold-light); padding: 5px 12px; border-radius: 20px; letter-spacing: 0.8px; text-transform: uppercase; font-weight: 500; }
+
+  /* MOBILE SELECTOR (hidden on desktop) */
+  .mobile-select-wrap { display: none; padding: 14px 16px; background: var(--verde-mid); border-bottom: 1px solid var(--border-green); }
+  .mobile-select { width: 100%; background: var(--verde-light); color: var(--white); border: 1px solid var(--border-green); border-radius: 8px; padding: 10px 14px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; cursor: pointer; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23E4B84A' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px; }
+
+  /* COMPANY BANNER */
+  .company-banner { background: var(--verde); padding: 20px 24px; display: flex; align-items: center; gap: 16px; border-bottom: 3px solid var(--gold); }
+  .banner-avatar { width: 52px; height: 52px; border-radius: 11px; background: var(--verde-light); border: 2px solid rgba(196,154,42,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-weight: 700; font-size: 22px; color: var(--gold-light); overflow: hidden; flex-shrink: 0; }
   .banner-avatar img { width: 100%; height: 100%; object-fit: cover; }
-  .banner-info h2 { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: var(--white); line-height: 1.2; }
-  .banner-meta { display: flex; align-items: center; gap: 12px; margin-top: 5px; }
-  .banner-stat { font-size: 12px; color: rgba(255,255,255,0.55); }
+  .banner-info h2 { font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 700; color: var(--white); line-height: 1.2; }
+  .banner-meta { display: flex; align-items: center; gap: 10px; margin-top: 4px; flex-wrap: wrap; }
+  .banner-stat { font-size: 12px; color: rgba(255,255,255,0.5); }
   .banner-dot { width: 3px; height: 3px; border-radius: 50%; background: var(--text-muted); }
-  .verified-badge { display: flex; align-items: center; gap: 5px; background: rgba(196,154,42,0.2); border: 1px solid rgba(196,154,42,0.4); border-radius: 20px; padding: 3px 10px; font-size: 11px; color: var(--gold-light); font-weight: 600; letter-spacing: 0.5px; }
-  .folders-area { padding: 30px 40px 40px; }
-  .folder-block { margin-bottom: 36px; }
-  .folder-header { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--border-light); }
-  .folder-icon-wrap { width: 28px; height: 28px; background: var(--verde); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 14px; }
-  .folder-name { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 600; color: var(--verde); }
-  .folder-count { font-size: 11px; color: #9BAA9E; margin-left: auto; background: var(--crema-dark); padding: 2px 10px; border-radius: 20px; }
-  .docs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: 14px; }
-  .doc-card { background: var(--white); border: 1px solid var(--border-light); border-radius: 12px; padding: 20px 16px 16px; cursor: pointer; transition: all 0.22s ease; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px; position: relative; overflow: hidden; }
-  .doc-card::before { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); transform: scaleX(0); transform-origin: left; transition: transform 0.25s ease; }
-  .doc-card:hover { border-color: var(--gold); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(26,58,40,0.12); }
-  .doc-card:hover::before { transform: scaleX(1); }
-  .doc-icon-wrap { width: 54px; height: 54px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 26px; border: 1px solid transparent; }
+  .verified-badge { display: flex; align-items: center; gap: 4px; background: rgba(196,154,42,0.2); border: 1px solid rgba(196,154,42,0.4); border-radius: 20px; padding: 2px 9px; font-size: 10px; color: var(--gold-light); font-weight: 600; }
+
+  /* FOLDERS */
+  .folders-area { padding: 20px 16px 40px; }
+  .folder-block { margin-bottom: 28px; }
+  .folder-header { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--border-light); }
+  .folder-icon-wrap { width: 26px; height: 26px; background: var(--verde); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 13px; flex-shrink: 0; }
+  .folder-name { font-family: 'Playfair Display', serif; font-size: 14px; font-weight: 600; color: var(--verde); }
+  .folder-count { font-size: 10px; color: #9BAA9E; margin-left: auto; background: var(--crema-dark); padding: 2px 9px; border-radius: 20px; white-space: nowrap; }
+
+  /* DOCS GRID */
+  .docs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+  .doc-card { background: var(--white); border: 1px solid var(--border-light); border-radius: 12px; padding: 16px 12px 13px; cursor: pointer; transition: all 0.2s ease; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; position: relative; overflow: hidden; -webkit-tap-highlight-color: transparent; }
+  .doc-card::before { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--gold), var(--gold-light)); transform: scaleX(0); transform-origin: left; transition: transform 0.22s ease; }
+  .doc-card:hover, .doc-card:active { border-color: var(--gold); transform: translateY(-2px); box-shadow: 0 6px 20px rgba(26,58,40,0.1); }
+  .doc-card:hover::before, .doc-card:active::before { transform: scaleX(1); }
+  .doc-icon-wrap { width: 48px; height: 48px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 24px; border: 1px solid transparent; }
   .icon-pdf { background: #FEF3F0; border-color: #FBDDD6; }
   .icon-img { background: #F0F6FF; border-color: #D6E8FB; }
   .icon-vid { background: #F0FFF5; border-color: #C8F0D8; }
-  .doc-label { font-size: 12.5px; font-weight: 500; color: var(--verde); line-height: 1.4; word-break: break-word; }
-  .doc-pill { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: 600; padding: 3px 9px; border-radius: 20px; }
+  .doc-label { font-size: 11.5px; font-weight: 500; color: var(--verde); line-height: 1.4; word-break: break-word; }
+  .doc-pill { font-size: 9px; text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600; padding: 2px 8px; border-radius: 20px; }
   .pill-pdf { background: #FEF3F0; color: #B53B20; }
   .pill-img { background: #F0F6FF; color: #2460A7; }
   .pill-vid { background: #F0FFF5; color: #1E7A48; }
-  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(10,24,16,0.85); z-index: 1000; align-items: center; justify-content: center; padding: 24px; backdrop-filter: blur(8px); }
+
+  /* OVERLAY SIDEBAR MOBILE */
+  .sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 150; }
+  .sidebar-overlay.open { display: block; }
+
+  /* MODAL */
+  .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(10,24,16,0.88); z-index: 300; align-items: center; justify-content: center; padding: 12px; backdrop-filter: blur(6px); }
   .modal-overlay.open { display: flex; }
-  .modal { background: var(--white); border-radius: 16px; width: 100%; max-width: 880px; max-height: 92vh; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 32px 80px rgba(0,0,0,0.45); animation: popIn 0.26s ease; }
-  @keyframes popIn { from { opacity: 0; transform: scale(0.95) translateY(16px); } to { opacity: 1; transform: scale(1) translateY(0); } }
-  .modal-top { background: var(--verde); padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; border-bottom: 3px solid var(--gold); }
-  .modal-top-left { display: flex; align-items: center; gap: 10px; }
-  .modal-top-icon { width: 30px; height: 30px; background: rgba(255,255,255,0.1); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
-  .modal-title { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 600; color: var(--white); }
-  .modal-close { background: rgba(255,255,255,0.1); border: none; color: rgba(255,255,255,0.8); width: 32px; height: 32px; border-radius: 8px; cursor: pointer; font-size: 17px; display: flex; align-items: center; justify-content: center; transition: all 0.18s; }
-  .modal-close:hover { background: rgba(255,255,255,0.22); color: var(--white); }
-  .modal-content { flex: 1; overflow: auto; display: flex; align-items: center; justify-content: center; background: var(--crema); min-height: 420px; padding: 16px; }
-  .modal-content iframe { width: 100%; height: 72vh; border: none; border-radius: 4px; }
-  .modal-content img { max-width: 100%; max-height: 72vh; object-fit: contain; border-radius: 6px; box-shadow: var(--shadow); }
-  .modal-content video { max-width: 100%; max-height: 72vh; border-radius: 8px; }
-  .no-preview { text-align: center; color: #7A9485; padding: 40px; }
+  .modal { background: var(--white); border-radius: 14px; width: 100%; max-width: 880px; max-height: 94vh; display: flex; flex-direction: column; overflow: hidden; box-shadow: 0 24px 80px rgba(0,0,0,0.5); animation: popIn 0.24s ease; }
+  @keyframes popIn { from { opacity:0; transform:scale(0.95) translateY(14px); } to { opacity:1; transform:scale(1) translateY(0); } }
+  .modal-top { background: var(--verde); padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; border-bottom: 3px solid var(--gold); gap: 12px; }
+  .modal-top-left { display: flex; align-items: center; gap: 9px; min-width: 0; }
+  .modal-top-icon { width: 28px; height: 28px; background: rgba(255,255,255,0.1); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 15px; flex-shrink: 0; }
+  .modal-title { font-family: 'Playfair Display', serif; font-size: 15px; font-weight: 600; color: var(--white); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .modal-close { background: rgba(255,255,255,0.1); border: none; color: rgba(255,255,255,0.85); width: 32px; height: 32px; border-radius: 8px; cursor: pointer; font-size: 16px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .modal-close:hover { background: rgba(255,255,255,0.22); }
+  .modal-content { flex: 1; overflow: auto; display: flex; align-items: center; justify-content: center; background: var(--crema); min-height: 300px; padding: 12px; }
+  .modal-content iframe { width: 100%; height: 70vh; border: none; border-radius: 4px; }
+  .modal-content img { max-width: 100%; max-height: 70vh; object-fit: contain; border-radius: 6px; }
+  .modal-content video { max-width: 100%; max-height: 70vh; border-radius: 8px; }
+  .no-preview { text-align: center; color: #7A9485; padding: 30px; }
   .no-preview a { color: var(--verde); font-weight: 600; text-decoration: none; }
-  ::-webkit-scrollbar { width: 6px; }
+
+  /* SCROLLBAR */
+  ::-webkit-scrollbar { width: 5px; }
   ::-webkit-scrollbar-track { background: transparent; }
   ::-webkit-scrollbar-thumb { background: rgba(26,58,40,0.2); border-radius: 3px; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 680px) {
+    .brand-sub { display: none; }
+    .flag-badge { display: none; }
+    .invima-badge { display: none; }
+    .menu-btn { display: flex; }
+
+    aside {
+      position: fixed;
+      top: 0; left: 0;
+      width: 280px;
+      height: 100vh;
+      z-index: 160;
+      transform: translateX(-100%);
+      padding-top: 67px;
+    }
+    aside.open { transform: translateX(0); }
+
+    .app { overflow: visible; }
+    main { width: 100%; min-height: calc(100vh - 67px); }
+
+    .mobile-select-wrap { display: block; }
+
+    .welcome { padding: 32px 20px; min-height: calc(100vh - 130px); }
+    .welcome h2 { font-size: 22px; }
+    .welcome-seal { width: 68px; height: 68px; font-size: 28px; }
+
+    .company-banner { padding: 16px; gap: 12px; }
+    .banner-avatar { width: 44px; height: 44px; font-size: 18px; }
+    .banner-info h2 { font-size: 16px; }
+
+    .folders-area { padding: 16px 12px 32px; }
+    .docs-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 9px; }
+    .doc-card { padding: 14px 10px 12px; }
+
+    .modal-content iframe { height: 60vh; }
+    .modal-content img { max-height: 60vh; }
+    .modal-content video { max-height: 60vh; }
+  }
+
+  @media (max-width: 380px) {
+    .docs-grid { grid-template-columns: repeat(2, 1fr); }
+  }
 </style>
 </head>
 <body>
+
 <div class="flag-stripe"></div>
+
 <header>
   <div class="header-left">
+    <button class="menu-btn" id="menuBtn" onclick="toggleSidebar()" aria-label="Menú">☰</button>
     <div class="brand-logo">🥛</div>
     <div>
       <div class="brand-title">Sector <span>Lácteo</span> Colombiano</div>
@@ -127,11 +206,14 @@
       <div class="colombia-flag"><div class="flag-y"></div><div class="flag-b"></div><div class="flag-r"></div></div>
       <span class="flag-text">Colombia</span>
     </div>
-    <div class="invima-badge">✓ Registros INVIMA</div>
+    <div class="invima-badge">✓ INVIMA</div>
   </div>
 </header>
+
+<div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
 <div class="app">
-  <aside>
+  <aside id="sidebar">
     <div class="sidebar-header">
       <div class="sidebar-label">Empresas participantes</div>
       <div class="sidebar-desc">Seleccione una empresa para ver sus documentos</div>
@@ -141,20 +223,29 @@
     </div>
     <div class="sidebar-footer">Documentos oficiales verificados<br>Registros INVIMA · Colombia</div>
   </aside>
+
   <main id="mainContent">
-    <div class="welcome">
-      <div class="welcome-seal">🏆</div>
-      <h2>Calidad Láctea<br>de Colombia</h2>
-      <p>Seleccione una empresa del panel izquierdo para consultar sus registros INVIMA, fichas técnicas y certificaciones oficiales.</p>
-      <div class="welcome-tags">
-        <span class="welcome-tag">🥛 Lácteos</span>
-        <span class="welcome-tag">📋 INVIMA</span>
-        <span class="welcome-tag">🇨🇴 Colombia</span>
-        <span class="welcome-tag">✅ Verificado</span>
+    <div class="mobile-select-wrap">
+      <select class="mobile-select" id="mobileSelect" onchange="pickByIndex(this.value)">
+        <option value="">— Seleccione una empresa —</option>
+      </select>
+    </div>
+    <div id="mainBody">
+      <div class="welcome">
+        <div class="welcome-seal">🏆</div>
+        <h2>Calidad Láctea<br>de Colombia</h2>
+        <p>Seleccione una empresa para consultar sus registros INVIMA, fichas técnicas y certificaciones oficiales.</p>
+        <div class="welcome-tags">
+          <span class="welcome-tag">🥛 Lácteos</span>
+          <span class="welcome-tag">📋 INVIMA</span>
+          <span class="welcome-tag">🇨🇴 Colombia</span>
+          <span class="welcome-tag">✅ Verificado</span>
+        </div>
       </div>
     </div>
   </main>
 </div>
+
 <div class="modal-overlay" id="modalOverlay" onclick="handleOverlay(event)">
   <div class="modal">
     <div class="modal-top">
@@ -167,34 +258,65 @@
     <div class="modal-content" id="mContent"></div>
   </div>
 </div>
+
 <script>
   let cfg = null;
+
   async function init() {
     try {
       const r = await fetch('config.json');
       if (!r.ok) throw new Error('config.json no encontrado');
       cfg = await r.json();
       buildSidebar();
+      buildMobileSelect();
     } catch(e) {
-      document.getElementById('companyList').innerHTML = `<div style="padding:16px;color:rgba(255,100,80,0.8);font-size:12px;text-align:center;">Error: ${e.message}</div>`;
+      document.getElementById('companyList').innerHTML =
+        `<div style="padding:16px;color:rgba(255,100,80,0.8);font-size:12px;text-align:center;">Error: ${e.message}</div>`;
     }
   }
+
   function buildSidebar() {
     const el = document.getElementById('companyList');
     if (!cfg?.empresas?.length) { el.innerHTML='<div style="padding:16px;color:rgba(255,255,255,0.3);font-size:12px;text-align:center;">Sin empresas</div>'; return; }
     el.innerHTML = cfg.empresas.map((emp,i) => {
       const tot = emp.carpetas.reduce((s,c)=>s+c.archivos.length,0);
       const av = emp.logo ? `<img src="${emp.logo}" alt="${emp.nombre}" onerror="this.parentElement.textContent='${emp.nombre.charAt(0)}'">` : emp.nombre.charAt(0);
-      return `<button class="company-btn" id="cb-${i}" onclick="pick(${i})"><div class="company-avatar">${av}</div><div><div class="company-name-text">${emp.nombre}</div><span class="company-docs-count">${tot} doc${tot!==1?'s':''}</span></div></button>`;
+      return `<button class="company-btn" id="cb-${i}" onclick="pick(${i})">
+        <div class="company-avatar">${av}</div>
+        <div><div class="company-name-text">${emp.nombre}</div><span class="company-docs-count">${tot} doc${tot!==1?'s':''}</span></div>
+      </button>`;
     }).join('');
   }
+
+  function buildMobileSelect() {
+    const sel = document.getElementById('mobileSelect');
+    if (!cfg?.empresas?.length) return;
+    cfg.empresas.forEach((emp,i) => {
+      const opt = document.createElement('option');
+      opt.value = i;
+      opt.textContent = emp.nombre;
+      sel.appendChild(opt);
+    });
+  }
+
+  function pickByIndex(val) {
+    if (val === '') return;
+    pick(parseInt(val));
+  }
+
   function pick(i) {
     document.querySelectorAll('.company-btn').forEach(b=>b.classList.remove('active'));
-    document.getElementById(`cb-${i}`).classList.add('active');
-    const emp = cfg.empresas[i];
+    const btn = document.getElementById(`cb-${i}`);
+    if (btn) btn.classList.add('active');
+    document.getElementById('mobileSelect').value = i;
+    renderCompany(cfg.empresas[i]);
+    closeSidebar();
+  }
+
+  function renderCompany(emp) {
     const tot = emp.carpetas.reduce((s,c)=>s+c.archivos.length,0);
     const av = emp.logo ? `<img src="${emp.logo}" alt="${emp.nombre}" onerror="this.parentElement.textContent='${emp.nombre.charAt(0)}'">` : emp.nombre.charAt(0);
-    document.getElementById('mainContent').innerHTML = `
+    document.getElementById('mainBody').innerHTML = `
       <div class="company-banner">
         <div class="banner-avatar">${av}</div>
         <div class="banner-info">
@@ -202,22 +324,24 @@
           <div class="banner-meta">
             <span class="banner-stat">${emp.carpetas.length} carpeta${emp.carpetas.length!==1?'s':''}</span>
             <div class="banner-dot"></div>
-            <span class="banner-stat">${tot} documento${tot!==1?'s':''}</span>
-            <div class="verified-badge">✓ Verificado INVIMA</div>
+            <span class="banner-stat">${tot} doc${tot!==1?'s':''}</span>
+            <div class="verified-badge">✓ INVIMA</div>
           </div>
         </div>
       </div>
-      <div class="folders-area">${emp.carpetas.map(c=>`
-        <div class="folder-block">
-          <div class="folder-header">
-            <div class="folder-icon-wrap">📁</div>
-            <div class="folder-name">${c.nombre}</div>
-            <div class="folder-count">${c.archivos.length} archivo${c.archivos.length!==1?'s':''}</div>
-          </div>
-          <div class="docs-grid">${c.archivos.map(f=>card(f)).join('')}</div>
-        </div>`).join('')}
+      <div class="folders-area">
+        ${emp.carpetas.map(c=>`
+          <div class="folder-block">
+            <div class="folder-header">
+              <div class="folder-icon-wrap">📁</div>
+              <div class="folder-name">${c.nombre}</div>
+              <div class="folder-count">${c.archivos.length} archivo${c.archivos.length!==1?'s':''}</div>
+            </div>
+            <div class="docs-grid">${c.archivos.map(f=>card(f)).join('')}</div>
+          </div>`).join('')}
       </div>`;
   }
+
   function tipo(raw) {
     const r=(raw||'').toLowerCase();
     if(r==='pdf') return 'pdf';
@@ -225,6 +349,7 @@
     if(['mp4','mov','webm','avi','video'].includes(r)) return 'video';
     return 'imagen';
   }
+
   function card(f) {
     const t=tipo(f.tipo);
     const icons={pdf:'📄',imagen:'🖼️',video:'🎬'};
@@ -237,6 +362,7 @@
       <span class="doc-pill ${pcls[t]}">${lbl[t]}</span>
     </div>`;
   }
+
   function openDoc(src,nom,t) {
     const icons={pdf:'📄',imagen:'🖼️',video:'🎬'};
     document.getElementById('mTitle').textContent=nom;
@@ -249,13 +375,28 @@
     document.getElementById('modalOverlay').classList.add('open');
     document.body.style.overflow='hidden';
   }
+
   function closeModal() {
     document.getElementById('modalOverlay').classList.remove('open');
     document.getElementById('mContent').innerHTML='';
     document.body.style.overflow='';
   }
+
   function handleOverlay(e) { if(e.target===document.getElementById('modalOverlay')) closeModal(); }
-  document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+  document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeModal(); });
+
+  function toggleSidebar() {
+    document.getElementById('sidebar').classList.toggle('open');
+    document.getElementById('sidebarOverlay').classList.toggle('open');
+    document.body.style.overflow = document.getElementById('sidebar').classList.contains('open') ? 'hidden' : '';
+  }
+
+  function closeSidebar() {
+    document.getElementById('sidebar').classList.remove('open');
+    document.getElementById('sidebarOverlay').classList.remove('open');
+    document.body.style.overflow='';
+  }
+
   init();
 </script>
 </body>
