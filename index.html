@@ -485,6 +485,14 @@
         <span class="doc-pill ${pcls[t]}">${lbl[t]}</span>
       </a>`;
     }
+    if(t==='imagen') {
+      const encodedSrc = encodeURI(f.archivo);
+      return `<a class="doc-card" href="${encodedSrc}" target="_blank" rel="noopener" style="text-decoration:none;">
+        <div class="doc-icon-wrap ${icls[t]}">${icons[t]}</div>
+        <div class="doc-label">${f.nombre}</div>
+        <span class="doc-pill ${pcls[t]}">${lbl[t]}</span>
+      </a>`;
+    }
     return `<div class="doc-card" onclick="openDoc(${JSON.stringify(f.archivo)},${JSON.stringify(f.nombre)},'${t}')">
       <div class="doc-icon-wrap ${icls[t]}">${icons[t]}</div>
       <div class="doc-label">${f.nombre}</div>
@@ -498,6 +506,7 @@
     document.getElementById('mIcon').textContent=icons[t]||'📎';
     const b=document.getElementById('mContent');
     if(t==='pdf') { window.location.href=encodeURI(src); return; }
+    if(t==='imagen') { window.location.href=encodeURI(src); return; }
     else if(t==='imagen') b.innerHTML=`<img src="${encodeURI(src)}" alt="${nom}">`;
     else if(t==='video') b.innerHTML=`<video controls><source src="${src}"></video>`;
     else b.innerHTML=`<div class="no-preview"><a href="${src}" target="_blank">Abrir archivo ↗</a></div>`;
