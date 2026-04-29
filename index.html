@@ -375,7 +375,7 @@
     const pcls={pdf:'pill-pdf',imagen:'pill-img',video:'pill-vid'};
     const lbl={pdf:'PDF',imagen:'Imagen',video:'Video'};
     const encodedSrc = encodeURI(f.archivo);
-    return `<a class="doc-card" href="${encodedSrc}" target="_blank" rel="noopener">
+    return `<a class="doc-card" href="${encodedSrc}" >
       <div class="doc-icon-wrap ${icls[t]}">${icons[t]}</div>
       <div class="doc-label">${f.nombre}</div>
       <span class="doc-pill ${pcls[t]}">${lbl[t]}</span>
