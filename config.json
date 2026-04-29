@@ -1,0 +1,101 @@
+{
+  "empresas": [
+    {
+      "nombre": "Empresa 1 S.A.S",
+      "logo": "",
+      "carpetas": [
+        {
+          "nombre": "Registros INVIMA",
+          "archivos": [
+            { "nombre": "Registro INVIMA Producto A", "archivo": "empresas/empresa1/invima/registro_a.pdf", "tipo": "pdf" },
+            { "nombre": "Registro INVIMA Producto B", "archivo": "empresas/empresa1/invima/registro_b.pdf", "tipo": "pdf" }
+          ]
+        },
+        {
+          "nombre": "Fichas Técnicas",
+          "archivos": [
+            { "nombre": "Ficha Técnica Producto A", "archivo": "empresas/empresa1/fichas/ficha_a.pdf", "tipo": "pdf" },
+            { "nombre": "Foto Producto A", "archivo": "empresas/empresa1/fichas/foto_a.jpg", "tipo": "imagen" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Empresa 2 Ltda",
+      "logo": "",
+      "carpetas": [
+        {
+          "nombre": "Registros INVIMA",
+          "archivos": [
+            { "nombre": "Registro INVIMA Colágeno", "archivo": "empresas/empresa2/invima/registro_colageno.pdf", "tipo": "pdf" }
+          ]
+        },
+        {
+          "nombre": "Certificados",
+          "archivos": [
+            { "nombre": "Certificado BPM", "archivo": "empresas/empresa2/certificados/bpm.pdf", "tipo": "pdf" },
+            { "nombre": "Certificado Keto", "archivo": "empresas/empresa2/certificados/keto.jpg", "tipo": "imagen" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Empresa 3 Corp",
+      "logo": "",
+      "carpetas": [
+        {
+          "nombre": "Registros INVIMA",
+          "archivos": [
+            { "nombre": "Registro INVIMA Suplemento", "archivo": "empresas/empresa3/invima/registro.pdf", "tipo": "pdf" }
+          ]
+        },
+        {
+          "nombre": "Etiquetas y Empaques",
+          "archivos": [
+            { "nombre": "Etiqueta Frente", "archivo": "empresas/empresa3/etiquetas/frente.jpg", "tipo": "imagen" },
+            { "nombre": "Etiqueta Reverso", "archivo": "empresas/empresa3/etiquetas/reverso.jpg", "tipo": "imagen" },
+            { "nombre": "Empaque Completo", "archivo": "empresas/empresa3/etiquetas/empaque.png", "tipo": "imagen" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Empresa 4 Group",
+      "logo": "",
+      "carpetas": [
+        {
+          "nombre": "Registros INVIMA",
+          "archivos": [
+            { "nombre": "Registro INVIMA Probiótico", "archivo": "empresas/empresa4/invima/registro.pdf", "tipo": "pdf" }
+          ]
+        },
+        {
+          "nombre": "Documentos Legales",
+          "archivos": [
+            { "nombre": "RUT Empresa", "archivo": "empresas/empresa4/legal/rut.pdf", "tipo": "pdf" },
+            { "nombre": "Cámara de Comercio", "archivo": "empresas/empresa4/legal/camara.pdf", "tipo": "pdf" }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Empresa 5 S.A",
+      "logo": "",
+      "carpetas": [
+        {
+          "nombre": "Registros INVIMA",
+          "archivos": [
+            { "nombre": "Registro INVIMA Vitaminas", "archivo": "empresas/empresa5/invima/registro.pdf", "tipo": "pdf" }
+          ]
+        },
+        {
+          "nombre": "Fotos de Producto",
+          "archivos": [
+            { "nombre": "Foto 1 — Frasco", "archivo": "empresas/empresa5/fotos/foto1.jpg", "tipo": "imagen" },
+            { "nombre": "Foto 2 — Uso", "archivo": "empresas/empresa5/fotos/foto2.jpg", "tipo": "imagen" }
+          ]
+        }
+      ]
+    }
+  ]
+}
