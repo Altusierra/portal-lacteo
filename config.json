@@ -70,6 +70,12 @@
       "logo": "",
       "carpetas": [
         {
+          "nombre": "Catálogo Comercial",
+          "archivos": [
+            { "nombre": "Catálogo Lácteos San Diego", "archivo": "empresas/lacteos-san-diego/catalogo-comercial/catalogo_lacteos_san_diego.pdf", "tipo": "pdf" }
+          ]
+        },
+        {
           "nombre": "Fichas Técnicas",
           "archivos": [
             { "nombre": "Queso Doble Crema", "archivo": "empresas/lacteos-san-diego/fichas-tecnicas/QUESO DOBLE CREMA.pdf", "tipo": "pdf" }
