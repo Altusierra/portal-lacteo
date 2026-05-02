@@ -7,7 +7,8 @@
         {
           "nombre": "Catálogo Comercial",
           "archivos": [
-            { "nombre": "Nuestros Productos de Coandilac", "archivo": "empresas/coandilac/catalogo-comercial/NUESTROS PRODUCTOS DE COANDILAC.pdf", "tipo": "pdf" }
+            { "nombre": "Nuestros Productos de Coandilac", "archivo": "empresas/coandilac/catalogo-comercial/NUESTROS PRODUCTOS DE COANDILAC.pdf", "tipo": "pdf" },
+            { "nombre": "Video Presentación Coandilac", "archivo": "https://www.youtube.com/watch?v=f89weyipmfM", "tipo": "video" }
           ]
         }
       ]
