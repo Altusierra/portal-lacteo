@@ -376,7 +376,7 @@
     const lbl={pdf:'PDF',imagen:'Imagen',video:'Video'};
     const isYT = f.archivo.includes('youtube.com') || f.archivo.includes('youtu.be');
     if(t==='video' && isYT) {
-      return `<a class="doc-card" href="${f.archivo}" target="_blank" rel="noopener">
+      return `<a class="doc-card" href="${f.archivo}">
         <div class="doc-icon-wrap ${icls[t]}">${icons[t]}</div>
         <div class="doc-label">${f.nombre}</div>
         <span class="doc-pill ${pcls[t]}">Video</span>
