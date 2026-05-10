@@ -69,7 +69,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": true
     },
     {
       "nombre": "COANDILAC",
@@ -90,7 +91,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": true
     },
     {
       "nombre": "LÁCTEOS BUENA VISTA",
@@ -226,7 +228,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": false
     },
     {
       "nombre": "LÁCTEOS SHIRLEY",
@@ -487,7 +490,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": false
     },
     {
       "nombre": "POWER MILK",
@@ -668,7 +672,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": false
     }
   ]
 }
